@@ -29,9 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import logo1 from "./logo1.png"
 
 export {
   logo,
+  logo1,
   backend,
   creator,
   mobile,
