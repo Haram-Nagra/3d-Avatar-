@@ -46,7 +46,7 @@ const Navbar = () => {
         alt="menu"
         className='w-[28px] h-[28px] object-contain cursor-pointer'
         onClick={()=>setToggle(!toggle)}/>
-      <div className={`${!toggle ? "hidden" : "flex" } p-6 bg-gradient-to-b from-[#131227] to-[#03011a] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-2xl z-10`}>
+      <div className={`${!toggle ? "hidden" : "flex" } p-6 bg-gradient-to-b from-[#131227] to-[#03011a] absolute top-12 right-0 mx-4 my-2 min-w-[140px] rounded-2xl z-10`}>
       <ul className='list-none flex sm:hidden flex-col gap-4 items-start justify-end'>
       {navLinks.map((link)=>(
         <li
@@ -55,7 +55,7 @@ const Navbar = () => {
             `${active === link.title
               ? "text-white"
               : "text-secondary"
-            } font-poppins text-[16px] font-medium cursor-pointer`}
+            } font-poppins text-[14px] font-medium cursor-pointer`}
             onClick={()=>{
               setToggle(!toggle)
               setActive(link.title)}}
