@@ -10,8 +10,8 @@ const Hero = () => {
       <div className={`${styles.paddingX} flex flex-row gap-5 absolute items-start top-[120px] inset-0  max-w-7xl mx-auto`}>
         
         <div className='flex flex-col mt-5 items-center justify-center'>
-          <div className='w-5 h-5 rounded-full flex bg-[#951eff] '/>
-          <div className='w-1 sm:h-80 h-40 violet-gradient'/>
+          <div className='w-5 h-5 rounded-full flex bg-[#bd2843] '/>
+          <div className='w-1 sm:h-80 h-40 rose-gradient'/>
         </div>
 
         <div>
