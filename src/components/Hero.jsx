@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText}`}> Hi I'm  <span className='text-[#951eff]'>Haram Iqbal Nagra</span></h1>
+          <h1 className={`${styles.heroHeadText}`}> Hi I'm  <span className='text-[#bd2843]'>Haram Iqbal Nagra</span></h1>
           <p>
             I develop 3D viuals,user interfaces <br className="sm:block hidden"/>
             and full-stack web appliactions.
@@ -31,7 +31,7 @@ const Hero = () => {
           flex items-start p-2 justify-center'>
               <motion.div
                 animate ={{
-                  y:[0,24,0]
+                  y:[0,2,0]
                 }}
                 transition={{
                   duration:1.5,
