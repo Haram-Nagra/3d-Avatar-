@@ -7,6 +7,10 @@ import { styles } from '../styles'
 import {EarthCanvas} from './canvas'
 import { slideIn } from '../utils/motion'
 
+// // template_roaa5im
+// O0fWxMn9lE27pY9O4
+// service_v4qhgyc
+
 const Contact = () => {
   
   const formRef =useRef();
@@ -18,12 +22,47 @@ const Contact = () => {
 
   const [loading,setLoading] = useState(false);
 
-  const handleChange =(e)=>{}
+  const handleChange =(e)=>{
+    const{name,value} =e.target;
+    setForm({...form,[name]:value})
+  }
 
-  const handleSubmit =(e)=>{}
+  const handleSubmit =(e)=>{
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_v4qhgyc',
+      'template_roaa5im',
+      {
+        from_name:form.name,
+        to_name : 'Haram Nagra',
+        from_email:form.email,
+        to_email:'haramiqbal25@gmail.com',
+        message :form.message
+      },
+      'O0fWxMn9lE27pY9O4'
+      )
+      .then(()=>{
+        setLoading(false);
+        alert('Thank you, I will get back to you as soon as possible');
+
+        setForm({
+          name:'',
+          email:'',
+          message:''
+        });
+      },(error)=>{
+        setLoading(false)
+
+        console.log(error);
+
+        alert('Something went wrong.');
+      })
+  }
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
+    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden '>
       <motion.div
         variants={slideIn("left","tween",0.2,1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
