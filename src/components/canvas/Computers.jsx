@@ -7,11 +7,11 @@ const Computers = ({isMobile}) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={1.5} groundColor="black"/>
+      <hemisphereLight intensity={0.75} groundColor="black"/>
       <pointLight intensity={1}/>
       <spotLight
         position={[-20,50,10]}
-        intensity={10000} // increased intensity
+        intensity={100} // increased intensity
         angle={0.12} // wider angle
         penumbra={1} // softer edges
         castShadow
@@ -21,7 +21,7 @@ const Computers = ({isMobile}) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.55 :0.75}
-        position={isMobile ? [0,-3,-2.2] : [0,-3.25,-1.5]}
+        position={isMobile ? [0,-3,-2.2] : [0,-3.25,-1.25]}
         rotation={[-0.01,-0.2,-0.1]}/>
     </mesh>
   )
