@@ -198,7 +198,7 @@ const testimonials = [
 
 const projects = [
 {
-    name: "Car Rent",
+    name: "Otaku Guide",
     description:
     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -219,7 +219,7 @@ const projects = [
     source_code_link: "https://github.com/",
 },
 {
-    name: "Job IT",
+    name: "Adaptive Encryption Based on traffic Analysis",
     description:
     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -240,7 +240,7 @@ const projects = [
     source_code_link: "https://github.com/",
 },
 {
-    name: "Trip Guide",
+    name: "Lane Detection",
     description:
     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
