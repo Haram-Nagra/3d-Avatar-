@@ -180,17 +180,17 @@ const testimonials = [
 },
 {
     testimonial:
-    "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    "I've never met a web developer who truly cares about their clients' success like haram does.",
+    name: "Hamza Khurshid",
+    designation: "CTO",
+    company: "Xodeum",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
 },
 {
     testimonial:
-    "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
+    "After haram optimized our app, our traffic increased by 50%. We can't thank him enough!",
+    name: "Imran Rao",
+    designation: "CEO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
 },
@@ -240,7 +240,7 @@ const projects = [
     source_code_link: "https://github.com/",
 },
 {
-    name: "Lane Detection",
+    name: "Real Time Lane Detection",
     description:
     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
