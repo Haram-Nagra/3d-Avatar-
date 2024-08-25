@@ -207,7 +207,7 @@ const projects = [
         color: "blue-text-gradient",
     },
     {
-        name: "mongodb",
+        name: "flask",
         color: "green-text-gradient",
     },
     {
@@ -228,11 +228,11 @@ const projects = [
         color: "blue-text-gradient",
     },
     {
-        name: "restapi",
+        name: "flask",
         color: "green-text-gradient",
     },
     {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
     },
     ],
@@ -245,11 +245,11 @@ const projects = [
     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
     {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
     },
     {
-        name: "supabase",
+        name: "OpenCV",
         color: "green-text-gradient",
     },
     {
