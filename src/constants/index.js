@@ -172,7 +172,7 @@ const experiences = [
 const testimonials = [
 {
     testimonial:
-    "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    "I thought it was impossible to make a website as beautiful as our product, but Haram proved me wrong.",
     name: "Muhammad Taha Mukhtar",
     designation: "Freelancer",
     company: "Acme Co",
@@ -191,7 +191,7 @@ const testimonials = [
     "After haram optimized our app, our traffic increased by 50%. We can't thank him enough!",
     name: "Imran Rao",
     designation: "CEO",
-    company: "456 Enterprises",
+    company: "Blue Brackets",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
 },
 ];
