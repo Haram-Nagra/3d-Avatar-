@@ -216,7 +216,7 @@ const projects = [
     },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Haram-Nagra/Otaku-Guide",
 },
 {
     name: "Adaptive Encryption Based on traffic Analysis",
@@ -237,12 +237,12 @@ const projects = [
     },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Haram-Nagra/Adaptive-Encryption-Based-on-traffic-analysis",
 },
 {
     name: "Real Time Lane Detection",
     description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "A comprehensive lane detection system that enables real time lane detection showing blue lines on lane using only digital image processing.",
     tags: [
     {
         name: "javascript",
