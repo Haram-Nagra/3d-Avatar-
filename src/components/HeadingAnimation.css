@@ -1,0 +1,23 @@
+.animated-heading {
+    font-family: "Arial", sans-serif;
+    color: #87ceeb; /* Sky Blue for overall text */
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  
+  .small {
+    font-size: 1.5rem;
+    color: #add8e6; /* Light Sky Blue */
+  }
+  
+  .large {
+    font-size: 5rem;
+    color: #4682b4; /* Steel Blue */
+  }
+  
+  .letter {
+    display: inline-block;
+    margin-right: 0.5rem; /* Tiny space between letters */
+  }
+  
